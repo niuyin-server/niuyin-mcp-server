@@ -1,0 +1,17 @@
+server:
+  port: 8090
+
+spring:
+  application:
+    name: niuyin-mcp-server
+  main:
+    web-application-type: none
+    banner-mode: off
+  profiles:
+    active: dev
+  ai:
+    mcp:
+      server:
+        stdio: true # 启用stdio模式
+        name: niuyin-mcp-server
+        version: 0.0.1
